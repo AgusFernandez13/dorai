@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Desafia n°1</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Dorai</h1>
+        <h2>Frutos secos</h2>
+         <nav class="nav-header">
+            <a href="frutos secos/frutos-secos.html">Frutos secos</a>
+            <a href="mix-de-frutos.html/mix.html">Mix de frutos</a>
+            <a href="semillas/semillas.html">Semillas</a>
+            <a href="frutas-deshidratadas/frutas-deshidaratadas.html">Fruta deshidratada</a>
+            <a href="promos/promos.html">Promos</a>
+         </nav>
+    </header>
+
+ <!--- video and welcome -->
+    <section>
+        <h3>¿por que es bueno consuimir frutos secos?</h3>
+        <article class="contenedor-video">
+            <iframe width="1310" height="302" src="https://www.youtube.com/embed/mRXLEdjV074" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </article>
+
+    </section>
+     <!--- Section our products -->
+    <section>
+        <h3>Nuestros productos</h3>
+        <div class="contenedor-imagenes">
+            <!--- first column -->
+            <div>
+                <div class="contenedor-imagen-titulo">
+                    <img src="https://dummyimage.com/200" alt="">
+                    <p>pasas precio 1209</p>
+                </div>
+        
+                <div class="contenedor-imagen-titulo">
+                    <img src="https://dummyimage.com/200" alt="">
+                    <p>pasas precio 1209</p>
+                </div>
+        
+                <div class="contenedor-imagen-titulo">
+                    <img src="https://dummyimage.com/200" alt="">
+                    <p>pasas precio 1209</p>
+                </div>
+        
+                <div class="contenedor-imagen-titulo">
+                    <img src="https://dummyimage.com/200" alt="">
+                    <p>pasas precio 1209</p>
+                </div>
+            </div>
+            <!--- second column -->
+            <div>
+                <div class="contenedor-imagen-titulo">
+                    <img src="https://dummyimage.com/200" alt="">
+                    <p>pasas precio 1209</p>
+                </div>
+        
+                <div class="contenedor-imagen-titulo">
+                    <img src="https://dummyimage.com/200" alt="">
+                    <p>pasas precio 1209</p>
+                </div>
+        
+                <div class="contenedor-imagen-titulo">
+                    <img src="https://dummyimage.com/200" alt="">
+                    <p>pasas precio 1209</p>
+                </div>
+        
+                <div class="contenedor-imagen-titulo">
+                    <img src="https://dummyimage.com/200" alt="">
+                    <p>pasas precio 1209</p>
+                </div>
+            </div>
+            <!--- Third column -->
+            <div>
+                <div class="contenedor-imagen-titulo">
+                    <img src="https://dummyimage.com/200" alt="">
+                    <p>pasas precio 1209</p>
+                </div>
+        
+                <div class="contenedor-imagen-titulo">
+                    <img src="https://dummyimage.com/200" alt="">
+                    <p>pasas precio 1209</p>
+                </div>
+        
+                <div class="contenedor-imagen-titulo">
+                    <img src="https://dummyimage.com/200" alt="">
+                    <p>pasas precio 1209</p>
+                </div>
+                <div class="contenedor-imagen-titulo">
+                    <img src="https://dummyimage.com/200" alt="">
+                    <p>pasas precio 1209</p>
+                </div>
+            </div>
+        </section>
+    
+       
+    <nav>
+        <a href="">ver más</a>
+    </nav>
+    <footer>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo quas enim nobis perferendis ex molestias mollitia dolorem ut voluptates minima. Error, minima? Dolorem dolores officia perspiciatis aperiam, aspernatur quis maiores obcaecati quibusdam eveniet magnam amet sed saepe modi! Est quos omnis non error nemo fugit mollitia vel fugiat quaerat perferendis voluptatem illo velit recusandae voluptates necessitatibus iusto totam alias odit, odio laudantium aliquid nostrum. Ad, labore? Eligendi tempore officiis possimus! Labore architecto animi voluptatum facilis reprehenderit eum necessitatibus sunt natus obcaecati maiores libero voluptates fugit assumenda autem, veritatis optio dolore eos cum quidem mollitia. Eum inventore dolores harum consequatur mollitia?</p>
+    
+<nav class="footer">
+    <a href="">instagram</a>
+    <a href="">whatsapp</a>
+    <a href="">facebook</a>
+</nav>
+
+</footer>
+    
+</body>
+</html>
+
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/*body*/
+
+body{
+    background-color: #F4F49F;
+}
+
+/*header*/
+
+ h1{
+    background-color: #647D1D; 
+    text-align: center;
+    padding: 5px;
+    border: solid 2px black;
+    font-size: large 12PX;
+}
+
+h2{
+   background-color: #DDFD86;
+   border: solid 2px black;
+   
+}
+
+.nav-header{
+    background-color: #DDFD86;
+    padding: 10px;
+    border: solid 2px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    margin: 1px;
+}
+
+h3{
+    background-color: #647D1D; 
+    padding: 10px;
+    border: solid 2px black;
+}    
+
+/*IMAGENES DEL PRODUCTO*/
+
+.imagenes-productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.precios-productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*footer*/
+nav{
+    text-align: center;
+    border: solid 2px black;
+    font-weight: bold;
+    margin: 40px;
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    margin-left: 10px;
+    padding: 10px;
+}
+.footer{
+    text-align: center;
+    border: solid 2px black;
+    font-weight: bold;
+    margin: 40px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*precios*/
+
+p{
+    font-family: 'Courier New', Courier, monospace ;
+}
+
+
+

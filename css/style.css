@@ -1,0 +1,184 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/*body*/
+
+body{
+    background-color: #F4F49F;
+}
+
+/*header*/
+
+ h1{
+    background-color: #647D1D; 
+    text-align: center;
+    padding: 5px;
+    border: solid 2px black;
+    font-size: large 12PX;
+}
+
+h2{
+   background-color: #DDFD86;
+   border: solid 1px black;
+   
+}
+
+.nav-header{
+    background-color: #DDFD86;
+    padding: 9px;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    margin: 1px;
+}
+
+h3{
+    background-color: #647D1D; 
+    padding: 10px;
+    border: solid 2px black;
+}    
+
+.contenedor-video{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+/*IMAGENES DEL PRODUCTO*/
+
+.contenedor-imagen-titulo-grid{
+    display: grid;
+    grid-template-columns: repeat (3,2fr);
+    grid-template-rows: repeat (3,2fr);
+    width: 200px;
+    height: 250px;
+}
+
+.contenedor-imagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.imagenes{
+    width: 200px;
+    height: 200px;
+}
+
+.contenedor-imagen-titulo{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*footer*/
+nav{
+    text-align: center;
+    border: solid 2px black;
+    font-weight: bold;
+    margin: 40px;
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    margin-left: 10px;
+    padding: 10px;
+}
+.footer{
+    text-align: center;
+    border: solid 2px black;
+    font-weight: bold;
+    margin: 40px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*precios*/
+
+p{
+    font-family: 'Courier New', Courier, monospace ;
+}
+
+
+/*sobre nosotros*/
+
+.p-sobre-nos{
+    margin: 20px;
+    padding: 15px;
+    font-family: 'Aboreto', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sobre-nos-img{
+    margin: 25px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-sobre-nos{
+    margin: 2px;
+    padding: 20px;
+    border: solid 2px black;
+}
+
+.img-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around
+}
+
+/*media quaries*/
+
+@media only screen and (max-width: 576px){
+    .contenedor-imagenes{
+        text-align: center;
+        justify-content: space-between;    
+    }
+
+    .contenedor-imagen-titulo-grid{
+        grid-template-columns: repeat (3,1fr);
+        grid-template-rows: repeat (3,02fr);
+        padding: 1px;
+        margin: 2px;
+
+    }
+
+header{
+    text-align: center;
+    justify-content: space-between;
+}
+
+.imagenes{
+    width: 150px;
+    height: 150px;
+}
+
+p{
+    text-align:justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+body{
+    align-content: center;
+}
+
+
+}
+
+
+ 
